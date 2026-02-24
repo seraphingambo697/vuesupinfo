@@ -6,7 +6,6 @@ export default class BookingPresenter {
     constructor(private vm: BookingViewModel) { }
 
 
-
     async bookRoom(): Promise<void> {
         this.vm.setError(null)
         this.vm.setSuccess(false)
